@@ -1,0 +1,26 @@
+{
+  "name": "pricegram",
+  "version": "0.0.0",
+  "description": "A Telegram bot to track Amazon products and send alerts on price and availabilty changes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleG94/Pricegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "price",
+    "tracker",
+    "amazon"
+  ],
+  "author": "Alessandro Genovese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleG94/Pricegram/issues"
+  },
+  "homepage": "https://github.com/AleG94/Pricegram#readme"
+}
