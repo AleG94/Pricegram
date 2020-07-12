@@ -1,0 +1,19 @@
+{
+  "tracker": {
+    "polling": {
+      "interval": {
+        "min": 300,
+        "max": 1200
+      }
+    },
+    "products": {
+      "checkInterval": 5400
+    },
+    "requests": {
+      "backoff": {
+        "min": 5,
+        "max": 60
+      }
+    }
+  }
+}
