@@ -29,8 +29,11 @@
   "homepage": "https://github.com/AleG94/Pricegram#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
     "config": "^3.3.1",
-    "mongoose": "^5.9.23"
+    "currency-symbols": "^0.4.1",
+    "mongoose": "^5.9.23",
+    "parse-money": "^1.0.10"
   },
   "devDependencies": {
     "dotenv-cli": "^3.2.0",
