@@ -25,6 +25,10 @@
     "url": "https://github.com/AleG94/Pricegram/issues"
   },
   "homepage": "https://github.com/AleG94/Pricegram#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "mongoose": "^5.9.23"
+  },
   "devDependencies": {
     "eslint": "^7.4.0"
   }

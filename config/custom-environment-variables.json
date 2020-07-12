@@ -1,0 +1,5 @@
+{
+  "mongo": {
+    "connectionURI": "MONGO_CONNECTION_URI"
+  }
+}
