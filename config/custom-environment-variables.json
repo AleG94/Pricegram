@@ -1,5 +1,8 @@
 {
   "mongo": {
     "connectionURI": "MONGO_CONNECTION_URI"
+  },
+  "telegram": {
+    "token": "TELEGRAM_BOT_TOKEN"
   }
 }
