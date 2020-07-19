@@ -13,6 +13,5 @@ const bot = new Bot(telegramBotToken);
 database.connect(mongoConnectionURI).then(() => {
   bot.launch();
   priceTracker.start();
-
   priceTracker.on('update', product => bot.sendMessage(product.user, alertMessage.create(product)));
 });
