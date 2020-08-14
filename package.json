@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "dotenv node app.js",
+    "dev": "nodemon -r dotenv/config app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --ignore-path .gitignore . --fix"
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "dotenv-cli": "^3.2.0",
-    "eslint": "^7.4.0"
+    "eslint": "^7.4.0",
+    "nodemon": "^2.0.4"
   }
 }
