@@ -4,7 +4,7 @@
   "description": "A Telegram bot that tracks Amazon products and sends alerts about price and availabilty changes.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node -r dotenv/config app.js",
     "dev": "nodemon -r dotenv/config app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ignore-path .gitignore .",
