@@ -32,6 +32,7 @@
     "cheerio": "^1.0.0-rc.3",
     "config": "^3.3.1",
     "currency-symbols": "^0.4.1",
+    "extract-domain": "^2.2.1",
     "mongoose": "^5.9.23",
     "parse-money": "^1.0.10",
     "telegraf": "^3.38.0"
