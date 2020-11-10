@@ -28,13 +28,15 @@
   },
   "homepage": "https://github.com/AleG94/Pricegram#readme",
   "dependencies": {
-    "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "config": "^3.3.1",
     "currency-symbols": "^0.4.1",
     "extract-domain": "^2.2.1",
     "mongoose": "^5.9.23",
     "parse-money": "^1.0.10",
+    "puppeteer": "^5.4.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.5",
     "telegraf": "^3.38.0"
   },
   "devDependencies": {
