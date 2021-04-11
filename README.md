@@ -26,6 +26,7 @@ Run the image in a container providing the following *environment variables*:
 
 * `MONGO_CONNECTION_URI`: the [URI](https://docs.mongodb.com/manual/reference/connection-string/) connection string for MongoDB
 * `TELEGRAM_BOT_TOKEN`: the access token of the Telegram bot
+* `AVERAGE_POLLING_INTERVAL`: the average interval between price and availability checks in seconds (default 90 minutes)
 
 <br>
 
@@ -33,6 +34,7 @@ Run the image in a container providing the following *environment variables*:
 docker run --name pricegram -d 
   -e MONGO_CONNECTION_URI=<mongo-uri> 
   -e TELEGRAM_BOT_TOKEN=<bot-token>
+  -e AVERAGE_POLLING_INTERVAL=<interval>
   aleg94/pricegram
 ```
 

@@ -4,5 +4,10 @@
   },
   "telegram": {
     "token": "TELEGRAM_BOT_TOKEN"
+  },
+  "tracker": {
+    "polling": {
+      "averageInterval": "AVERAGE_POLLING_INTERVAL"
+    }
   }
 }
