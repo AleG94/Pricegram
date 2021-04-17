@@ -1,5 +1,6 @@
 'use strict';
 const config = require('config');
+const logger = require('./lib/logger')();
 const database = require('./lib/database');
 const Bot = require('./lib/bot');
 const priceTracker = require('./lib/price-tracker');
@@ -13,5 +14,11 @@ const bot = new Bot(telegramBotToken);
 database.connect(mongoConnectionURI).then(() => {
   bot.launch();
   priceTracker.start();
-  priceTracker.on('update', product => bot.sendMessage(product.user, new Alert(product).toMarkdown()));
+
+  priceTracker.on('update', product => {
+    bot.sendMessage(product.user, new Alert(product).toMarkdown());
+    logger.info(`Alert sent: ${product.name} (${product.id})`);
+  });
+
+  logger.info('Pricegram started...');
 });

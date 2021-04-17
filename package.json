@@ -33,6 +33,7 @@
     "currency-symbols": "^0.4.1",
     "dotenv-cli": "^4.0.0",
     "extract-domain": "^2.2.1",
+    "log4js": "^6.3.0",
     "mongoose": "^5.9.23",
     "parse-money": "^1.0.10",
     "puppeteer": "^5.4.1",
