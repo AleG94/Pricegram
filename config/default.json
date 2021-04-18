@@ -5,8 +5,8 @@
     },
     "requests": {
       "backoff": {
-        "min": 5,
-        "max": 30
+        "min": 3,
+        "max": 15
       }
     }
   }
