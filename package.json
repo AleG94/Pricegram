@@ -28,22 +28,22 @@
   },
   "homepage": "https://github.com/AleG94/Pricegram#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "config": "^3.3.1",
+    "cheerio": "^1.0.0-rc.6",
+    "config": "^3.3.6",
     "currency-symbols": "^0.4.1",
     "dotenv-cli": "^4.0.0",
     "extract-domain": "^2.2.1",
     "log4js": "^6.3.0",
-    "mongoose": "^5.9.23",
-    "parse-money": "^1.0.10",
-    "puppeteer": "^5.4.1",
-    "puppeteer-extra": "^3.1.15",
-    "puppeteer-extra-plugin-stealth": "^2.6.5",
+    "mongoose": "^5.12.4",
+    "parse-money": "^1.0.12",
+    "puppeteer": "^8.0.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.6",
     "telegraf": "^4.3.0",
     "telegraf-session-local": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "nodemon": "^2.0.4"
+    "eslint": "^7.24.0",
+    "nodemon": "^2.0.7"
   }
 }
