@@ -39,7 +39,8 @@
     "puppeteer": "^5.4.1",
     "puppeteer-extra": "^3.1.15",
     "puppeteer-extra-plugin-stealth": "^2.6.5",
-    "telegraf": "^3.38.0"
+    "telegraf": "^4.3.0",
+    "telegraf-session-local": "^2.1.0"
   },
   "devDependencies": {
     "eslint": "^7.4.0",
