@@ -31,8 +31,8 @@ Run the image in a container providing the following *environment variables*:
 <br>
 
 ```
-docker run --name pricegram -d 
-  -e MONGO_CONNECTION_URI=<mongo-uri> 
+docker run --name pricegram -d
+  -e MONGO_CONNECTION_URI=<mongo-uri>
   -e TELEGRAM_BOT_TOKEN=<bot-token>
   -e AVERAGE_POLLING_INTERVAL=<interval>
   aleg94/pricegram
