@@ -1,7 +1,7 @@
 {
   "tracker": {
     "polling": {
-      "averageInterval": 5400
+      "averageInterval": 7200
     },
     "requests": {
       "backoff": {

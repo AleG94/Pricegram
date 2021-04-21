@@ -26,7 +26,7 @@ Run the image in a container providing the following *environment variables*:
 
 * `MONGO_CONNECTION_URI`: the [URI](https://docs.mongodb.com/manual/reference/connection-string/) connection string for MongoDB
 * `TELEGRAM_BOT_TOKEN`: the access token of the Telegram bot
-* `AVERAGE_POLLING_INTERVAL`: the average interval between price and availability checks in seconds (default 90 minutes)
+* `AVERAGE_POLLING_INTERVAL`: the average interval between price and availability checks in seconds (defaults to 2 hours)
 
 <br>
 
