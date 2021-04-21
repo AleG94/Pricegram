@@ -84,7 +84,5 @@ Whenever the price or availability of a product changes, an alert is sent accord
 
 ## Notes
 
-Prices and availabilities of products are updated about every 90 minutes to avoid spamming Amazon servers.
-
 Pricegram is currently compatible with products sold in the following currencies: `USD`, `GBP`, `EUR`, `BRL`, `RUB`, `ILS`, `RON`.
 
