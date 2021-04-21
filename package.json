@@ -1,6 +1,6 @@
 {
   "name": "pricegram",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "A Telegram bot that tracks Amazon products and sends alerts about price and availabilty changes.",
   "main": "app.js",
   "scripts": {
